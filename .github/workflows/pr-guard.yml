@@ -18,6 +18,6 @@ jobs:
           fetch-depth: 0
 
       - name: Run PR Guard
-        uses: YM2132/PR_guard@main   # <-- once you tag a release
+        uses: YM2132/PR_guard@v0.1.0   # <-- once you tag a release
         with:
           openai_api_key: ${{ secrets.PR_GUARD_OPENAI_API_KEY }}
